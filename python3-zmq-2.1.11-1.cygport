@@ -1,8 +1,0 @@
-ORIG_PN="pyzmq"
-inherit python3-distutils
-
-DESCRIPTION="Py3K 0MQ bindings"
-HOMEPAGE="http://www.zeromq.org/"
-SRC_URI="https://github.com/zeromq/pyzmq/downloads/${ORIG_PN}-${PV}.tar.gz"
-
-DOCS="COPYING.LESSER README.rst"
