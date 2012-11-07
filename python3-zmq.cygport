@@ -1,11 +1,14 @@
-ORIG_PN="pyzmq"
 inherit python3-distutils
 
+NAME="python3-zmq"
+VERSION=2.2.0.1
+RELEASE=1
 CATEGORY="Python"
 SUMMARY="Py3K 0MQ bindings"
 DESCRIPTION="This package contains Python bindings for 0MQ, a lightweight and
 fast messaging implementation."
 HOMEPAGE="http://www.zeromq.org/bindings:python"
-SRC_URI="https://github.com/zeromq/pyzmq/downloads/${ORIG_PN}-${PV}.tar.gz"
+SRC_URI="https://github.com/zeromq/pyzmq/downloads/pyzmq-${VERSION}.tar.gz"
+SRC_DIR="pyzmq-${VERSION}"
 
 DOCS="COPYING.LESSER README.rst"
