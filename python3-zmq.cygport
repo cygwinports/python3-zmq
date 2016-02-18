@@ -2,7 +2,7 @@ ORIG_PN="pyzmq"
 inherit python3-distutils
 
 NAME="python3-zmq"
-VERSION=14.6.0
+VERSION=15.2.0
 RELEASE=1
 CATEGORY="Python"
 SUMMARY="Py3K 0MQ bindings"
